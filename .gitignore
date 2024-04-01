@@ -1,2 +1,9 @@
 # auto-generated files
 .DS_Store
+.ipynb_checkpoints
+
+# unprocessed data
+data/raw
+
+# drafts
+notebooks/drafts
