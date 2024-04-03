@@ -2,8 +2,8 @@
 .DS_Store
 .ipynb_checkpoints
 
-# unprocessed data
-data/raw
+# raw and processed data
+data/
 
 # drafts
 notebooks/drafts
