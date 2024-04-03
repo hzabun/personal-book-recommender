@@ -2,7 +2,7 @@
 
 A single book can drastically change your life.
 
-But finding the next book to read can be very challenging. There are just too many to choose leading to option paralysis. At the same time, giving every single book a chance can be quick wasteful in terms of time.
+But finding the next book to read can be very challenging. There are just too many to choose which can lead to option paralysis. At the same time, giving every single book a chance can be quick wasteful in terms of time.
 
 That's why this project aims to create a personal book recommender based on several different algorithms and an LLM built on top of it for more customized recommendations.
 
