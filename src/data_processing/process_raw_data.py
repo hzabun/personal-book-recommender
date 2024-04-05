@@ -23,8 +23,14 @@ books_df = books_df[books_df["isbn"] != ""]
 ratings_df = ratings_df.drop_duplicates(subset=["user_id", "isbn"], keep=False)
 books_df = books_df.drop_duplicates(subset=["isbn"])
 
-user_book_ratings = ratings_df.merge(right=books_df, how="left")
+user_book_ratings = ratings_df.merge(right=books_df, how="left", on="isbn")
+user_book_ratings_complete_rows = user_book_ratings.dropna(
+    axis=0
+)  # drop rows with null, see "notebooks/quick_EDA.ipynb" for more details
 
 ratings_df.to_csv("data/processed/ratings.csv", index=False)
 books_df.to_csv("data/processed/books.csv", index=False)
 user_book_ratings.to_csv("data/processed/user_book_ratings.csv", index=False)
+user_book_ratings_complete_rows.to_csv(
+    "data/processed/user_book_ratings_complete_rows.csv", index=False
+)
