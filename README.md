@@ -10,7 +10,7 @@ The tracking and logging for each algorithm is done via [MLflow](https://github.
 
 ## Roadmap
 
-- [x] Finish quick EDA
+- [x] Finish quick EDA (file: *notebooks/quick_EDA.ipynb*)
 - [ ] Implement and log first algorithm in MLflow
 - [ ] Implement and log remaining algorithms
 - [ ] Implement LLM to use algorithms as basis for even more personalized recommendations
