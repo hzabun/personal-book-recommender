@@ -5,5 +5,5 @@
 # raw and processed data
 data/
 
-# drafts
-notebooks/drafts
+# code snippets and drafts
+drafts
