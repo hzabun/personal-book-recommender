@@ -17,7 +17,7 @@ graphene==3.3
 graphql-core==3.2.3
 graphql-relay==3.2.0
 gunicorn==21.2.0
-idna==3.6
+idna==3.7
 importlib-metadata==7.1.0
 isbnlib==3.10.14
 itsdangerous==2.1.2
