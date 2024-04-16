@@ -11,6 +11,8 @@ The tracking and logging for each algorithm is done via [MLflow](https://github.
 ## Roadmap
 
 - [x] Finish quick EDA (file: *notebooks/quick_EDA.ipynb*)
+- [x] Query ISBNs of missing books (file: *notebooks/query_isbn.ipynb*)
+- [x] Process raw files (file: *src/data_processing/process_raw_data.py*)
 - [ ] Implement and log first algorithm in MLflow
 - [ ] Implement and log remaining algorithms
 - [ ] Implement LLM to use algorithms as basis for even more personalized recommendations
